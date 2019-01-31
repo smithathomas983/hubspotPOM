@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.hubspot.BasePage.BasePage;
+import com.qa.hubspot.constants.Constants;
 
 public class DealsPage extends BasePage {
 	@FindBy(xpath = "//span[text()='Create deal']")
@@ -28,6 +29,12 @@ public class DealsPage extends BasePage {
 	public DealsPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+
+	}
+	public String getDealsPageTitle() {
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.titleContains(Constants.DEAL_PAGE_TITLE));
+		return driver.getTitle();
 
 	}
 
