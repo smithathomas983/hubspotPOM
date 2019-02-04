@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33854" started-at="2019-01-30T23:20:01Z" finished-at="2019-01-30T23:20:35Z">
+  <suite name="Default suite" duration-ms="38677" started-at="2019-01-31T22:46:48Z" finished-at="2019-01-31T22:47:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33854" started-at="2019-01-30T23:20:01Z" finished-at="2019-01-30T23:20:35Z">
-      <class name="com.qa.hubspot.Tests.ContactsPageTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.Tests.ContactsPageTests@d8355a8]" name="setUp" is-config="true" duration-ms="22031" started-at="2019-01-30T23:20:01Z" finished-at="2019-01-30T23:20:23Z">
+    <test name="Default test" duration-ms="38677" started-at="2019-01-31T22:46:48Z" finished-at="2019-01-31T22:47:26Z">
+      <class name="com.qa.hubspot.Tests.DealsPageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.Tests.DealsPageTests@d8355a8]" name="setUp" is-config="true" duration-ms="36027" started-at="2019-01-31T22:46:48Z" finished-at="2019-01-31T22:47:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyCreateContacts_Test()[pri:0, instance:com.qa.hubspot.Tests.ContactsPageTests@d8355a8]" name="verifyCreateContacts_Test" duration-ms="10811" started-at="2019-01-30T23:20:23Z" finished-at="2019-01-30T23:20:34Z">
+        <test-method status="PASS" signature="verifyDealsPageTitle_Test()[pri:0, instance:com.qa.hubspot.Tests.DealsPageTests@d8355a8]" name="verifyDealsPageTitle_Test" duration-ms="1433" started-at="2019-01-31T22:47:24Z" finished-at="2019-01-31T22:47:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateContacts_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.Tests.ContactsPageTests@d8355a8]" name="tearDown" is-config="true" duration-ms="969" started-at="2019-01-30T23:20:34Z" finished-at="2019-01-30T23:20:35Z">
+        </test-method> <!-- verifyDealsPageTitle_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.Tests.DealsPageTests@d8355a8]" name="tearDown" is-config="true" duration-ms="1160" started-at="2019-01-31T22:47:25Z" finished-at="2019-01-31T22:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.hubspot.Tests.ContactsPageTests -->
+      </class> <!-- com.qa.hubspot.Tests.DealsPageTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

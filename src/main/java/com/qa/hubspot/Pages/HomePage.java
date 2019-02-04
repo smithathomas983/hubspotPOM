@@ -45,7 +45,7 @@ public class HomePage extends BasePage {
 		return homePageHeader.isDisplayed();
 	}
 
-	public ContactsPage gotoDealsPage() {
+	public DealsPage gotoDealsPage() {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.visibilityOf(salesTab));
 
@@ -54,7 +54,7 @@ public class HomePage extends BasePage {
 
 		dealsLink.click();
 
-		return new ContactsPage(driver);
+		return new DealsPage(driver);
 
 	}
 
