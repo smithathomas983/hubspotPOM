@@ -44,6 +44,12 @@ public class ContactsPageTests {
 		Assert.assertEquals("Smitha T", contactsPage.firstContactName());
 	}
 	
+	@Test
+	public void verifyCreateContactsDataDriven_Test() {
+		contactsPage.createContactsDataDriven("Contacts");
+			
+	}
+	
 	@AfterMethod
 	public void tearDown() {
 	driver.quit();
