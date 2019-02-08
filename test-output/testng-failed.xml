@@ -6,8 +6,8 @@
       <class name="com.qa.hubspot.Tests.ContactsPageTests">
         <methods>
           <include name="setUp"/>
+          <include name="verifyCreateContactsDataDriven_Test"/>
           <include name="tearDown"/>
-          <include name="verifyCreateContacts_Test"/>
         </methods>
       </class> <!-- com.qa.hubspot.Tests.ContactsPageTests -->
     </classes>
